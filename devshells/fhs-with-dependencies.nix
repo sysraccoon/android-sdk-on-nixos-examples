@@ -1,6 +1,6 @@
 { pkgs ? import <nixpkgs> {}, ... }:
 (pkgs.buildFHSUserEnv {
-  name = "android-emu";
+  name = "android-sdk-fhs";
   targetPkgs = pkgs:
     with pkgs; [
       # XORG related stuff
